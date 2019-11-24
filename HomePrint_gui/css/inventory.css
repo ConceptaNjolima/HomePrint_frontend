@@ -1,0 +1,34 @@
+*,html,header{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: white;
+    height: 112px;
+    line-height: 112px;
+}
+header.container{
+    height:120px;
+    background-color: white;
+
+}
+
+.row  ul{
+    list-style: none;
+}
+.row ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+header nav{
+    float: right
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-size: 20px;
+    color:rgb(6, 0, 130);
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+
+}
