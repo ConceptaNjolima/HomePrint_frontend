@@ -1,0 +1,102 @@
+*,html,header{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: white;
+    height: 112px;
+    line-height: 112px;
+}
+header.container{
+    height:120px;
+    background-color: white;
+
+}
+
+.row  ul{
+    list-style: none;
+}
+.row ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+header nav{
+    float: right
+}
+header nav ul li a{
+    padding-right: 30px;
+    font-size: 20px;
+    color:rgb(6, 0, 130);
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+
+}
+header nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+.house{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url("..//image/house.jpg");
+    background-size: 100% 100%;
+}
+.calendar{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url("..//image/calendar.jpg");
+    background-size: 100% 100%;
+}
+.repair{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)), url("..//image/repair.jpg");
+    background-size: 100% 100%
+}
+.slider,.slider ul, .slider ul li
+{
+  transition: opacity 1s ease-in-out;
+    padding: 5px;
+    list-style: none;
+    height:500px;
+    width:auto;
+    color: rgb(6, 0, 130);
+}
+.heading{
+    margin-top: 5%;
+}
+.heading ul li{
+    list-style:none;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(6, 0, 130);
+    text-align: center;
+    letter-spacing: 3px;
+}
+.heading2{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    font-style:oblique;
+
+}
+.inventory{
+    background-color: red;
+}
+.inv_explained{
+    background-color: black
+}
+#boxes{
+    margin: 10px;
+    background-color:rgb(6, 0, 130);
+    height: 520px;
+
+}
+.box{
+    background-color: white;
+    float: left;
+    height:500px;
+    margin:10px;
+    text-align: center;
+    width: 30%
+
+}
